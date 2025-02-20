@@ -80,7 +80,7 @@ fetch('sites.json')  // 替换为你实际的 JSON 文件 URL
                     siteTime(${site.siteId})
                 }`)
         },t)
-        t+=500
+        t+=200
     }
   })
   .catch(error => {
