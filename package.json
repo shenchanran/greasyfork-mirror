@@ -1,0 +1,20 @@
+{
+  "name": "greasyfork-mirror",
+  "version": "1.0.0",
+  "description": "通过在镜像站上传js库文件的方式，在引导页再引入这个js文件，如果引入成功就计算时间，失败就代表无法访问。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
