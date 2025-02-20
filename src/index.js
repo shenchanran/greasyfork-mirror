@@ -35,7 +35,8 @@ function siteTime(siteId){
     son.innerHTML = `延迟 ${spendTime}ms`
     sort()
 }
-fetch('sites.json')  // 替换为你实际的 JSON 文件 URL
+let time = new Date().getTime()
+fetch(`sites.json?t=${time}`)  // 替换为你实际的 JSON 文件 URL
   .then(response => {
     if (!response.ok) {
       throw new Error('网络响应不正常');
@@ -69,7 +70,6 @@ fetch('sites.json')  // 替换为你实际的 JSON 文件 URL
         })
         document.querySelector('#siteList').appendChild(div)
         let s = document.createElement("script")
-        let time = new Date().getTime()
         s.src = site.scripturl+'?t='+time
         let z = document.getElementsByTagName("script")[0]
         setTimeout(function(){
