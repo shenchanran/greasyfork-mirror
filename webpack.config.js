@@ -3,9 +3,14 @@ const path = require('path');
 
 module.exports = {
   entry: './src/index.js',
+  devtool: 'inline-source-map',
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'index_bundle.js',
+    filename: 'index.js',
+  },
+  mode: 'development',
+  devServer: {
+    static: './dist',
   },
   module: {
     rules: [

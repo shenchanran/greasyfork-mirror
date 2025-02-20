@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>镜像站点导航</title>
     <style>
+        .mouse {
+            cursor: pointer;
+        }
         .title-gradient {
             background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
             -webkit-background-clip: text;
@@ -34,51 +37,8 @@
         </h1>
 
         <!-- 镜像列表 -->
-        <div class="row g-4 mb-4">
-            <!-- 镜像项 1 -->
-            <div class="col-12">
-                <div class="mirror-card p-4 bg-white shadow-sm" onclick="location.href='#'">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <h3 class="text-primary mb-0">主镜像站</h3>
-                            <small class="text-muted">mirror.example.com</small>
-                        </div>
-                        <div class="col-auto">
-                            <span class="badge bg-success rounded-pill">延迟 56ms</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 镜像项 2 -->
-            <div class="col-12">
-                <div class="mirror-card p-4 bg-white shadow-sm" onclick="location.href='#'">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <h3 class="text-info mb-0">备用镜像 1</h3>
-                            <small class="text-muted">backup1.example.com</small>
-                        </div>
-                        <div class="col-auto">
-                            <span class="badge bg-warning rounded-pill">延迟 128ms</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 镜像项 3 -->
-            <div class="col-12">
-                <div class="mirror-card p-4 bg-white shadow-sm" onclick="location.href='#'">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <h3 class="text-danger mb-0">备用镜像 2</h3>
-                            <small class="text-muted">backup2.example.com</small>
-                        </div>
-                        <div class="col-auto">
-                            <span class="badge bg-danger rounded-pill">延迟 342ms</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row g-4 mb-4" id="siteList">
+            
         </div>
 
         <!-- 公告区域 -->
@@ -91,11 +51,10 @@
                 </div>
                 <div class="flex-grow-1 ms-3">
                     <h5 class="text-warning">重要公告</h5>
-                    <p class="mb-0">当前主镜像站正在进行维护升级，建议优先使用备用镜像站点。预计维护时间：2023年8月1日 00:00 - 04:00</p>
+                    <p class="mb-0" id="info">当前主镜像站正在进行维护升级，建议优先使用备用镜像站点。预计维护时间：2023年8月1日 00:00 - 04:00</p>
                 </div>
             </div>
         </div>
     </div>
-    <script src="./index.js"></script>
 </body>
 </html>

@@ -1,6 +1,10 @@
 // ==UserScript==
-// @name         GreasyFork镜像站验证库
-// @namespace    申禅姌
+// @name         GreasyFork镜像站验证库-03
+// @namespace    gfmirror
 // @version      0.0.1
-// @description  ai题库对接
+// @description  GreasyFork镜像站验证库:https://github.com/shenchanran/greasyfork-mirror
 // ==/UserScript==
+(function(){
+    let siteId = 2
+    eval(`window.site${siteId}()`)
+})()
