@@ -1,5 +1,5 @@
 {
-    "info":"镜像站列表内容为互联网收集，本页面作者不为镜像站实际内容负责<br>所有镜像站点内容都不保证与官网内容一致，请谨慎使用，防止投毒<br>因为脚本站与下载站使用不同域名，可能会出现显示延迟与实际延迟不符，通常镜像站都会同时代理脚本站与下载站<br>此页面排名按照延迟高低排序，如果全部显示超时，请刷新此页面<br>如果您有未上榜的镜像站地址，请在官网私聊<a href='https://greasyfork.org/zh-CN/users/1435633' target='_blank'>@gfmirror<a><br>GitHub：<a href='https://github.com/shenchanran/greasyfork-mirror' target='_blank'>greasyfork-mirror</a>",
+    "info":"<span style='color:red'>从2025-02-23开始，不再收录免费(能通过免费途径获得的)域名</span><br>镜像站列表内容为互联网收集，本页面作者不为镜像站实际内容负责<br>所有镜像站点内容都不保证与官网内容一致，请谨慎使用，<span style='color:red'>防止投毒</span><br>因为脚本站与下载站使用不同域名，可能会出现显示延迟与实际延迟不符，通常镜像站都会同时代理脚本站与下载站<br>此页面排名按照延迟高低排序，如果全部显示超时，请刷新此页面<br>如果您有未上榜的镜像站地址，请在官网私聊<a href='https://greasyfork.org/zh-CN/users/1435633' target='_blank'>@gfmirror<a><br>GitHub：<a href='https://github.com/shenchanran/greasyfork-mirror' target='_blank'>greasyfork-mirror</a>",
     "sites":[
         {
             "name":"GreasyFork主站(官网)",
@@ -20,17 +20,22 @@
             "siteId":2
         },
         {
-            "name":"GreasyFork镜像站(fishcpy)",
-            "url":"https://www.greasyfork.us.kg/",
-            "scripturl":"https://update.greasyfork.us.kg/scripts/527535/1540301/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-04.js",
+            "name":"GreasyFork镜像站(vip)",
+            "url":"https://greasyfork.vip",
+            "scripturl":"https://update.greasyfork.vip/scripts/527535/1540301/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-04.js",
             "siteId":3
-        }
-        ,
+        },
         {
-            "name":"GreasyFork镜像站(dahi)",
-            "url":"https://yx.dahi.edu.eu.org/",
-            "scripturl":"https://yxd.dahi.edu.eu.org/scripts/527537/1540305/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-05.js",
+            "name":"GreasyFork镜像站(xin)",
+            "url":"https://greasyfork.xin",
+            "scripturl":"https://update.greasyfork.xin/scripts/527537/1540305/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-05.js",
             "siteId":4
+        },
+        {
+            "name":"GreasyFork镜像站(fit)",
+            "url":"https://greasyfork.fit",
+            "scripturl":"https://update.greasyfork.fit/scripts/527767/1541666/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-06.js",
+            "siteId":5
         }
     ]
 }
