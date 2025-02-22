@@ -5,37 +5,43 @@
             "name":"GreasyFork主站(官网)",
             "url":"https://greasyfork.org",
             "scripturl":"https://update.greasyfork.org/scripts/527512/1540229/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-01.js",
-            "siteId":0
+            "siteId":0,
+            "integrity":"sha384-SZOwmFbyOg18e8/Q4LzdzGasdSAyBP4gUMew5/2bUWkYnxMhzXxg2RWBqmTt3v0E"
         },
         {
             "name":"GreasyFork中国站(官方镜像)",
             "url":"https://cn-greasyfork.org",
             "scripturl":"https://update.cn-greasyfork.org/scripts/527513/1540230/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-02.js",
-            "siteId":1
+            "siteId":1,
+            "integrity":"sha384-InGUy37TFYAjQniS8ervRsmyhmAslw9BktS2sAHDd8Iwf3WVeQaUUlA2IaLG2vdF"
         },
         {
             "name":"GreasyFork镜像站(jj)",
             "url":"https://greasyfork.icu",
             "scripturl":"https://update.greasyfork.icu/scripts/527523/1540265/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-03.js",
-            "siteId":2
+            "siteId":2,
+            "integrity":"sha384-7b/a8LOUWEfvvkyWIa/ScFSyUL55Zw/XNcrgFUejuIAgbHcS5nGVQli/1S2A1WS4"
         },
         {
             "name":"GreasyFork镜像站(vip)",
             "url":"https://greasyfork.vip",
             "scripturl":"https://update.greasyfork.vip/scripts/527535/1540301/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-04.js",
-            "siteId":3
+            "siteId":3,
+            "integrity":"sha384-0hR0a4/VvBl/ifN/NjB8LSJKAZe+8IvS6JUqMVbhyuyJfnocdPZzx0Ayq0VfSz8f"
         },
         {
             "name":"GreasyFork镜像站(xin)",
             "url":"https://greasyfork.xin",
             "scripturl":"https://update.greasyfork.xin/scripts/527537/1540305/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-05.js",
-            "siteId":4
+            "siteId":4,
+            "integrity":"sha384-yJYISE4N6MnpBwvWEAWFvkg83R7O1NaZ24pa+sezIGdNNPdM/S3TgS+0jJ6Y99M+"
         },
         {
             "name":"GreasyFork镜像站(fit)",
             "url":"https://greasyfork.fit",
             "scripturl":"https://update.greasyfork.fit/scripts/527767/1541666/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-06.js",
-            "siteId":5
+            "siteId":5,
+            "integrity":"sha384-n/uHsLP1lVCQqDh0lQP62DllwkRs0WgiiGzZ1O7GoBsNl+qtp64FgyjA+ZNFM/jc"
         }
     ]
 }

@@ -71,6 +71,8 @@ fetch(`sites.json?t=${time}`)  // 替换为你实际的 JSON 文件 URL
         document.querySelector('#siteList').appendChild(div)
         let s = document.createElement("script")
         s.src = site.scripturl+'?t='+time
+        s.setAttribute('integrity',site.integrity)
+        s.setAttribute('crossorigin','anonymous')
         let z = document.getElementsByTagName("script")[0]
         setTimeout(function(){
             z.parentNode.insertBefore(s, z)
