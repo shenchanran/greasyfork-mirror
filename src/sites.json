@@ -42,6 +42,13 @@
             "scripturl":"https://update.greasyfork.fit/scripts/527767/1541666/GreasyFork%E9%95%9C%E5%83%8F%E7%AB%99%E9%AA%8C%E8%AF%81%E5%BA%93-06.js",
             "siteId":5,
             "integrity":"sha384-n/uHsLP1lVCQqDh0lQP62DllwkRs0WgiiGzZ1O7GoBsNl+qtp64FgyjA+ZNFM/jc"
+        },
+        {
+            "name":"GreasyFork镜像站(Q)",
+            "url":"https://gf.qytechs.cn",
+            "scripturl":"https://update.gf.qytechs.cn/scripts/528036/1543130/GreasyFork%25E9%2595%259C%25E5%2583%258F%25E7%25AB%2599%25E9%25AA%258C%25E8%25AF%2581%25E5%25BA%2593-07.js",
+            "siteId":6,
+            "integrity":"sha384-Mn7rWxfuSCJDBQ6sV/311baLKbUWKLzSpwzsuMCkaaFZW2Q8iXuLqvgR7GQV5BZU"
         }
     ]
 }
